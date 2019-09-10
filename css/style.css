@@ -1,0 +1,132 @@
+.menu {
+  text-align: right;
+}
+
+.shop-name {
+  text-align: left;
+}
+
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/1054391/pexels-photo-1054391.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  text-align: center;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-body {
+  padding-bottom: 20px;
+}
+
+.brands {
+  margin-bottom: 40px;
+}
+
+.footer {
+  background: #eff2f5;
+}
+
+.footer .txt {
+  padding-top: 6px;
+}
+
+.list-inline {
+  text-align: right;
+}
+
+.products {
+  margin-bottom: 40px;
+}
+
+.tworows h3 {
+  color: #80ffbf;
+  text-align: center;
+}
+
+.tworows {
+  margin-bottom: 40px;
+}
+
+.tworows img:hover {
+  filter: brightness(50%);
+}
+
+.threecolumns {
+  margin-bottom: 40px;
+}
+
+.threecolumns:hover {
+  text-align: center;
+}
+
+.fas {
+  display: inline-block;
+}
+
+.threecolumns .card {
+  padding: 3px;
+  margin-bottom: 3px;
+}
+
+.threecolumns .card i {
+  padding-top: 4px;
+  padding-left: 3px;
+}
+
+.contact {
+  margin-bottom: 40px;
+}
+
+.btn-one {
+  background: #1a1aff;
+}
+
+.contact i {
+  font-size: 15px;
+}
+
+.contact {
+  background: #eff2f5;
+}
+
+.icon {
+  margin-left: 5px;
+}
+
+.btn-two {
+  text-align: left;
+}
+
+.box {
+  padding: 0 5px 0 5px;
+  margin-bottom: 3px;
+}
+
+.text {
+  font-size: 10px;
+}
+/*# sourceMappingURL=style.css.map */
