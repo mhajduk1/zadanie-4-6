@@ -5,16 +5,81 @@
 .shop-name {
   text-align: left;
 }
+.impression {
+  background-image: url("https://images.pexels.com/photos/1183021/pexels-photo-1183021.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+}
+/*.navbar {
+padding: 12px 10px;
+}
+.navbar div {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.navbar div a {
+  display: inline-block;
+  margin-right: 36px;
+  position: relative;
+}*/
+/* Navigation */
+.navigation {
+  background: none;
+  padding: 12px 0; 
+}
 
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.navigation li {
+  display: inline-block;
+  margin-right: 36px;
+  position: relative; }
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 1s; }
+.navigation ul ul li {
+  display: block;
+  margin-bottom: 12px;
+  text-align: left; }
+
+.navigation ul ul {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  display: none;
+  padding-top: 12px;
+  background: #ffffff; }
+.navigation p{
+  color: #ffff00;
+}
+.navigation li:hover ul {
+  display: block;
+  position: absolute; }
+
+.navigation ul ul a {
+  color: #0097e6;
+  display: block;
+  padding: 0 24px; }
+
+.navigation ul ul a:hover {
+  color: #33d9b2; }
 .splash {
   height: 100vh;
   position: relative;
-  background-image: url("https://images.pexels.com/photos/1054391/pexels-photo-1054391.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
 }
-
+.icon {
+  text-align: center;
+}
+.menu {
+  text-align: right;
+}
 .splash-inner {
   position: absolute;
   width: 100%;
@@ -129,4 +194,28 @@
 .text {
   font-size: 10px;
 }
-/*# sourceMappingURL=style.css.map */
+/*footer*/
+.footer {
+ text-align: center;
+ display: inline;
+}
+/*.footer ul {
+    margin: 48px 0;
+}*/
+.footer li {
+ display: inline;
+ font-size: 0px;
+ line-height: 30px;
+}
+
+.footer i {
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 5px;
+}
