@@ -24,9 +24,14 @@ padding: 12px 10px;
 /* Navigation */
 .navigation {
   background: none;
-  padding: 12px 0; 
+  padding: 12px 0;
 }
-
+.menu p {
+  padding-left: 50px;
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: left;
+}
 .navigation ul {
   margin: 0;
   padding: 0;
@@ -67,6 +72,15 @@ padding: 12px 10px;
 
 .navigation ul ul a:hover {
   color: #33d9b2; }
+  .splash_title {
+    text-align: center;
+  }
+  .splash_title h3 {
+    font-size: 50px;
+  }
+  .splash_title h2 {
+    font-size: 70px;
+  }
 .splash {
   height: 100vh;
   position: relative;
@@ -165,9 +179,24 @@ padding: 12px 10px;
 .contact {
   margin-bottom: 40px;
 }
-
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1s;
+}
 .btn-one {
-  background: #1a1aff;
+  background: #ffff00;
 }
 
 .contact i {
@@ -203,7 +232,6 @@ padding: 12px 10px;
     margin: 48px 0;
 }*/
 .footer li {
- display: inline;
  font-size: 0px;
  line-height: 30px;
 }
