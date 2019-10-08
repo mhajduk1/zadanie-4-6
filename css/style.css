@@ -7,6 +7,7 @@
 }
 .impression {
   background-image: url("https://images.pexels.com/photos/1183021/pexels-photo-1183021.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  position: relative;
 }
 /*.navbar {
 padding: 12px 10px;
@@ -91,6 +92,9 @@ padding: 12px 10px;
 .icon {
   text-align: center;
 }
+.services {
+  display: block;
+}
 .menu {
   text-align: right;
 }
@@ -120,7 +124,10 @@ padding: 12px 10px;
 .card-body {
   padding-bottom: 20px;
 }
-
+.description {
+  border: 10px;
+  border-color:
+}
 .brands {
   margin-bottom: 40px;
 }
@@ -246,4 +253,7 @@ padding: 12px 10px;
   text-align: center;
   border-radius: 50%;
   margin: 0 5px;
+}
+.social_media::after {
+  display: block;
 }
