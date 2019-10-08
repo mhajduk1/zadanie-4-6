@@ -1,3 +1,8 @@
+/* Global */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 .menu {
   text-align: right;
 }
@@ -233,7 +238,6 @@ padding: 12px 10px;
 /*footer*/
 .footer {
  text-align: center;
- display: inline;
 }
 /*.footer ul {
     margin: 48px 0;
@@ -253,7 +257,4 @@ padding: 12px 10px;
   text-align: center;
   border-radius: 50%;
   margin: 0 5px;
-}
-.social_media::after {
-  display: block;
 }
