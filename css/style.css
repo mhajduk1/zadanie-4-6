@@ -100,6 +100,9 @@ padding: 12px 10px;
 .services {
   display: block;
 }
+.section_title {
+    font-size: 40px;
+}
 .menu {
   text-align: right;
 }
@@ -113,11 +116,11 @@ padding: 12px 10px;
 
 .header {
   text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
-.card {
-  margin: 10px;
-}
+
 
 .card img {
   width: 100%;
@@ -151,6 +154,7 @@ padding: 12px 10px;
 
 .products {
   margin-bottom: 40px;
+  background: #f2f2f2;
 }
 
 .tworows h3 {
@@ -211,13 +215,7 @@ padding: 12px 10px;
   background: #ffff00;
 }
 
-.contact i {
-  font-size: 15px;
-}
 
-.contact {
-  background: #eff2f5;
-}
 
 .icon {
   margin-left: 5px;
@@ -238,6 +236,7 @@ padding: 12px 10px;
 /*footer*/
 .footer {
  text-align: center;
+ background: #eff2f5;
 }
 /*.footer ul {
     margin: 48px 0;
@@ -245,6 +244,7 @@ padding: 12px 10px;
 .footer li {
  font-size: 0px;
  line-height: 30px;
+ display: inline-block;
 }
 
 .footer i {
