@@ -50,7 +50,9 @@ padding: 12px 10px;
   margin: 0;
   padding: 0;
   list-style-type: none; }
-
+ .choose li{
+   display: inline-block;
+ }
 .navigation li {
   display: inline-block;
   margin-right: 36px;
@@ -104,9 +106,20 @@ padding: 12px 10px;
 }
 .icon {
   text-align: center;
+  
+}
+.stamp {
+  border-color: #ffff00;
+  font-size: 20px;
+  width: 55px;
+  height: 55px;
+  line-height: 60px;  
+  text-align: center; 
+  border-radius: 50%;
+  margin: 0 5px;
 }
 .services {
-  display: block;
+  display: inline-block;
 }
 .section_title {
     font-size: 40px;
@@ -127,8 +140,12 @@ padding: 12px 10px;
     padding-bottom: 30px;
     padding-top: 30px;
 }
-
-
+.item_title {
+  font-size: 20px;
+}
+.item_title p{
+  font-size: 15px;
+}
 
 .card img {
   width: 100%;
@@ -231,6 +248,10 @@ padding: 12px 10px;
 
 .icon {
   margin-left: 5px;
+  border-radius: 50%;
+  border-color: #ffff00;
+  width: 20px;
+  height: 20px;
 }
 
 .btn-two {
@@ -270,3 +291,17 @@ padding: 12px 10px;
   border-radius: 50%;
   margin: 0 5px;
 }
+@media (max-width: 767px) {
+  .logo {
+
+  }
+    .choose {
+      display: inline;
+    }
+    .page-title {
+      font-size: 15px;
+    }
+    .page-subtitle {
+      font-size: 25px;
+    }
+ }
