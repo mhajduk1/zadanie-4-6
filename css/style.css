@@ -2,7 +2,9 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
-
+.body {
+  margin: 0;
+}
 .menu {
   text-align: right;
 }
@@ -116,7 +118,6 @@ padding: 12px 10px;
 }
 
 .services {
-  display: inline-block;
   text-align: center;
 }
 .section_title {
