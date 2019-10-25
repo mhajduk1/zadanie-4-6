@@ -247,13 +247,11 @@ body {
   font-size: 10px;
 }
 
+/*footer*/
 .footer {
   background: #eff2f5;
 }
 
-/*.footer ul {
-     margin: 48px 0;
- }*/
 .footer li {
   font-size: 0px;
   line-height: 30px;

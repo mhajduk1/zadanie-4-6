@@ -166,7 +166,7 @@ h3 {
   }
   img:hover {
     filter: brightness(50%);
-    }
+  }
 }
 
 .threecolumns {
@@ -218,29 +218,27 @@ h3 {
 .text {
     font-size: 10px;
 }
-//*footer*/
+/*footer*/
 .footer {
   background: #eff2f5;
- }
- /*.footer ul {
-     margin: 48px 0;
- }*/
- .footer li {
+  li {
     font-size: 0px;
     line-height: 30px;
     display: inline-block;
+  }
+ i {
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
  }
- .footer i {
-   font-size: 15px;
-   width: 40px;
-   height: 40px;
-   background-color: #000000;
-   color: #ffffff;
-   line-height: 40px;
-   text-align: center;
-   border-radius: 50%;
-   margin: 0 5px;
- }
+ 
 @media (max-width: 767px) {
 
  .choose {
